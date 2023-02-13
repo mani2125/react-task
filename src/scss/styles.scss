@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+.cl-app {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	padding: 0 20px 15px;	
+	&__container {
+		max-width: 768px;
+		margin: 0 auto;
+		height: 100%;
+		box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+	}
+	&__details{
+		padding-top: 20px;
+	}
+}

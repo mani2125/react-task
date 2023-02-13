@@ -1,0 +1,18 @@
+.profile-container{
+  display: flex;
+  .profile-info{
+    padding-left: 20px;
+    .prfile-title{
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+  }  
+}
+.ant-modal-content{
+    .ant-modal-title{
+        font-size: 25px;
+    }
+    .ant-btn-primary {
+        display: none;
+    }
+  }
